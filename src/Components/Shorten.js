@@ -7,6 +7,7 @@ const Shorten = () => {
 
 	const shortenURL = (e) => {
 		e.preventDefault();
+		setLinkInfo(null);
 
 		if (!link) {
 			setStatus({ error: true, info: "Please provide your Link!" });
