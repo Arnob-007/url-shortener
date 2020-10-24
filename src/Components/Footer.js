@@ -1,4 +1,8 @@
 import React from "react";
+import fbImage from "../Assets/icon-facebook.svg";
+import twitterImage from "../Assets/icon-twitter.svg";
+import pinterestImage from "../Assets/icon-pinterest.svg";
+import instaImage from "../Assets/icon-instagram.svg";
 
 const Footer = () => {
 	return (
@@ -35,26 +39,10 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div className='ftrsection'>
-					<img
-						className='socialicon'
-						src={require("../Assets/icon-facebook.svg")}
-						alt='fb'
-					/>
-					<img
-						className='socialicon'
-						src={require("../Assets/icon-twitter.svg")}
-						alt='twitter'
-					/>
-					<img
-						className='socialicon'
-						src={require("../Assets/icon-pinterest.svg")}
-						alt='pinterest'
-					/>
-					<img
-						className='socialicon'
-						src={require("../Assets/icon-instagram.svg")}
-						alt='instagram'
-					/>
+					<img className='socialicon' src={fbImage} alt='fb' />
+					<img className='socialicon' src={twitterImage} alt='twitter' />
+					<img className='socialicon' src={pinterestImage} alt='pinterest' />
+					<img className='socialicon' src={instaImage} alt='instagram' />
 				</div>
 			</div>
 		</div>

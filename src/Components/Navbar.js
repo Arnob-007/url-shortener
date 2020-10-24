@@ -1,10 +1,11 @@
 import React from "react";
+import logo from "../Assets/logo.svg";
 
 const Navbar = () => {
 	return (
 		<div className='nav'>
 			<div className='nav__title'>
-				<img src={require("../Assets/logo.svg")} alt='logo' />
+				<img src={logo} alt='logo' />
 				<HamburgerIcon />
 			</div>
 			<NavOptions />

@@ -1,4 +1,5 @@
 import React from "react";
+import workingImage from "../Assets/illustration-working.svg";
 
 const Intro = () => {
 	return (
@@ -11,11 +12,7 @@ const Intro = () => {
 				</p>
 				<h4 className='btn'>Get Started</h4>
 			</div>
-			<img
-				className='intro__image'
-				src={require("../Assets/illustration-working.svg")}
-				alt='working'
-			/>
+			<img className='intro__image' src={workingImage} alt='working' />
 		</div>
 	);
 };

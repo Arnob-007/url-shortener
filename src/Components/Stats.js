@@ -1,4 +1,7 @@
 import React from "react";
+import brandIcon from "../Assets/icon-brand-recognition.svg";
+import detailedIcon from "../Assets/icon-detailed-records.svg";
+import customizableIcon from "../Assets/icon-fully-customizable.svg";
 
 const Stats = () => {
 	return (
@@ -14,17 +17,17 @@ const Stats = () => {
 				<StatsCard
 					title='Brand Recognition'
 					info="Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instill confidence in your content."
-					imageurl={require("../Assets/icon-brand-recognition.svg")}
+					imageurl={brandIcon}
 				/>
 				<StatsCard
 					title='Detailed Records'
 					info='Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.'
-					imageurl={require("../Assets/icon-detailed-records.svg")}
+					imageurl={detailedIcon}
 				/>
 				<StatsCard
 					title='Fully Customizable'
 					info='Improve brand awareness and content discoverabilty through customizable links, supercharging audience engagement.'
-					imageurl={require("../Assets/icon-fully-customizable.svg")}
+					imageurl={customizableIcon}
 				/>
 			</div>
 		</div>
