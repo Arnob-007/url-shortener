@@ -39,6 +39,8 @@ const Shorten = () => {
 		<div className='shorten'>
 			<form className='shorten__box'>
 				<input
+					title='URL Input'
+					aria-label='Please provide your URL'
 					onChange={(e) => setLink(e.target.value)}
 					className='shorten__inp'
 					type='text'
